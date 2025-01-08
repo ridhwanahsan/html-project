@@ -119,4 +119,23 @@ text-transform: capitalize;
     z-index: -1;
   
 }
+.banner-are .pagenation{ 
+text-align: center; 
+  
+}
+.banner-are .button-slider{
+    width: 12px;
+    height: 12px;
+    background: var(--white);
+    border-radius: 50%;
+
+  
+}
+.banner-are   .d-slider{ 
+    width: 28px;
+    height: 12px;
+    border-radius: 30px;
+ background: var(--black);
+  
+}
 /* banner css end */
