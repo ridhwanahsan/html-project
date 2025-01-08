@@ -227,5 +227,52 @@ max-width: 1130px;
 /* baner news style end */
 
 /* contact style start */
-
+.contact-area .contact-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    margin: 50px 0;
+}
+.contact-area .contact-image{
+  max-width: 585px;
+}
+.contact-area .contact-image img{
+   width: 100%;
+}
+.contact-area .contact-form{
+  max-width: 563px;
+}
+.contact-area .contact-form input{
+   display: inline-block;
+   width: 528px;
+   padding: 16px 18px;
+   margin: 16px 0;
+   border-radius: 8px;
+}
+.contact-area .contact-form .input-flex{
+    display: flex;
+    gap: 16px;
+}
+.contact-area .contact-form h4{
+   font-size: 48px;
+    margin-bottom: 40px;
+    
+}
+.contact-area .contact-form p{
+   margin-bottom: 40px;
+}
+.contact-area .contact-form .submit-btn{
+    padding: 18px 50px;
+    background: var(--primer);
+    color: var(--black);
+    border-radius: 8px;
+    transition-duration: .4s;
+    font-size: 18px;
+}
+.contact-area .contact-form .submit-btn:hover{
+ background: var(--black);
+ color: var(--white);
+  
+}
 /* contact style end */
