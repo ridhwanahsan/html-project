@@ -53,11 +53,13 @@ display: inline-block;
 margin: 0 30px;
 text-transform: capitalize;
 }
+
 .header-area .header-btn-box  .header-btn-1 {
     padding: 15px 30px;
     background: var(--white);
     color: var(--black);
     border-radius: 10px;
+     
 }
 .header-area .header-btn-box  .header-btn-1:hover {
    background: var(--primer);
@@ -186,6 +188,7 @@ max-width: 1130px;
 /* product section end */
 
 /* baner news style start */
+
 .news-banner .news-main{
     max-width: 1240px;
     background: var(--primer);
