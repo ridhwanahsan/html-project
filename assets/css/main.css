@@ -140,6 +140,7 @@ text-align: center;
 /* banner css end */
 /* product section start */
 .product-box .product-area{
+max-width: 1130px;
  margin: 50px 0;
 }
 .product-box .product-area .product-item{
@@ -158,7 +159,7 @@ text-align: center;
    width: 100%;
 }
 .product-box .product-area .product-item .product-content{
-   max-width: 689px;
+   max-width: 526px;
 }
 .product-box .product-item .product-content h2{
    font-size: 37px;
