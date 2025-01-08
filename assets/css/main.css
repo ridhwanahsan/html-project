@@ -1,0 +1,122 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* variable css start*/
+:root 
+{
+    --black: #050505;
+    --white: #ffffff;
+    --primer: #25EFD2;
+    --light-black: #333333;
+    /* variable css end */
+}
+/* common css start */
+body{
+    font-family: 'Poppins', sans-serif;
+   
+}
+a{
+    text-decoration: none;
+    color: var(--white);
+    transition-duration: .3s;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+  padding: 0;
+}
+.container{
+    max-width: 1240px;
+   margin: 0 auto;
+}
+.header-area .header-main 
+{
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+/* common css end */
+/* header css start */
+.header-area {
+width: 100%;
+background-color: var(--black);
+}
+.header-area .header-menu li {
+color: var(--white);
+list-style: none;
+display: inline-block;
+margin: 0 30px;
+text-transform: capitalize;
+}
+.header-area .header-btn-box  .header-btn-1 {
+    padding: 15px 30px;
+    background: var(--white);
+    color: var(--black);
+    border-radius: 10px;
+}
+.header-area .header-btn-box  .header-btn-1:hover {
+   background: var(--primer);
+}
+.header-area .header-btn a {
+ color: var(--black);
+}
+/* header css end */
+/* banner css start */
+.banner-are{
+    width: 100%;
+    background-color: var(--primer);
+    padding: 50px 0;
+}
+.banner-main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+  
+    
+}
+.banner-are .banner-content{
+    width: 584px;
+    background-color: var(--primer);
+  
+}
+.banner-are .banner-content h1{
+ font-size: 48px;
+ margin-bottom: 40px;
+  
+}
+.banner-are .banner-content p{
+  font-size: 18px;
+  color: var(--light-black);
+  margin-bottom: 40px;
+}
+.banner-are .banner-content .banner-btn
+{
+    color: var(--black);
+    padding: 18px 50px;
+    border: solid 2px var(--black);
+    border-radius: 10px;
+}
+.banner-are .banner-imae{
+    position: relative;
+    width: 673px;
+    text-align: center;
+    z-index: 1;
+}
+.banner-are .banner-imae img{
+    width: 460px;
+  
+}
+.banner-are .banner-imae .banner-bg{
+    width: 673px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+  
+}
+/* banner css end */
