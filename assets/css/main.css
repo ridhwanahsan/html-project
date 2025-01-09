@@ -195,7 +195,7 @@ max-width: 1130px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 40px;
+   
     border-radius: 30px;
 }
 .news-banner .news-content{
@@ -223,6 +223,7 @@ max-width: 1130px;
      max-width: 440px;
      border-left: 1px solid var(--white);
      border-radius: 50%;
+     color: #050505;
 }
 .news-banner .news-image img{
     width:100%;
@@ -231,11 +232,13 @@ max-width: 1130px;
 
 /* contact style start */
 .contact-area .contact-main{
+    max-width: 1200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 50px;
     margin: 50px 0;
+
 }
 .contact-area .contact-image{
   max-width: 585px;
@@ -279,3 +282,81 @@ max-width: 1130px;
   
 }
 /* contact style end */
+
+/* footer style start */
+.footer-area{
+    background: var(--black);
+    padding: 50px 0 20px 0;
+}
+.footer-area .footer-main{
+    max-width: 1240px;
+    display: flex;
+    justify-content: space-between;
+   margin: 50px 0;
+}
+.footer-area .logo-widget{
+     max-width: 239px;
+}
+.footer-area .logo-widget .footer-logo{
+     margin-bottom: 12px;
+}
+.footer-area .logo-widget p{
+   color: var(--white);
+   font-size: 18px;
+   line-height: 28px;
+}
+.footer-area .footer-widget:nth-child(2){
+    max-width: 140px;
+  
+}
+.footer-area .footer-widget:nth-child(3){
+    max-width: 258px;
+    height: 254px;
+  
+}
+.footer-area .footer-widget h4{
+    font-size: 24px;
+    line-height: 24px;
+    color: var(--primer);
+    margin-bottom: 33px;
+  
+}
+.footer-area .footer-widget ul li{
+    margin-bottom: 10px;
+    
+}
+.footer-area .footer-widget .adress p,a{
+    font-size: 18px;
+   color: var(--white);
+  margin-bottom: 8px;
+    
+}
+.footer-area .footer-widget .adress h5{
+    font-size: 18px;
+    color: var(--primer);
+}
+.footer-area .footer-widget:nth-child(4){
+    max-width: 186px;
+}
+.footer-area .footer-widget .activity h5{
+    font-size: 18px;
+    color: var(--primer);
+    margin-bottom: 10px;
+}
+.footer-area .footer-widget .activity p{
+    font-size: 18px;
+    color: var(--white);
+    margin-bottom: 10px;
+}
+.footer-area .copyright {
+     border-top: 1px solid var(--white);
+}
+.footer-area .copyright p{
+    font-size: 18px;
+    color: var(--white);
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 10px;
+}
+
+/* footer style end */
