@@ -5,18 +5,6 @@
     box-sizing: border-box;
 }
 
-/* CSS Variables */
-// :root {
-//     --black: #050505;
-//     --white: #ffffff;
-//     --primer: #25EFD2;
-//     --light-black: #333333;
-    
-//     /* Add commonly used values */
-//     --transition: all 0.3s ease;
-//     --container-width: 1240px;
-// }
-
 /* Base styles */
 body {
     font-family: 'Poppins', sans-serif;
@@ -43,7 +31,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Container */
-
 .container {
     max-width: 1240px;
     margin: 0 auto;
