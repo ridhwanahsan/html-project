@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* variable css start*/
+:root 
+{
+    --black: #050505;
+    --white: #ffffff;
+    --primer: #25EFD2;
+    --light-black: #333333;
+    /* variable css end */
+}
+/* common css start */
+body{
+    font-family: 'Poppins', sans-serif;
+   
+}
+a{
+    text-decoration: none;
+    color: var(--white);
+    transition-duration: .3s;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+  padding: 0;
+}
+.container{
+    max-width: 1240px;
+   margin: 0 auto;
+}
+/* common css end */

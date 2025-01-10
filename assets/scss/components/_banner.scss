@@ -1,0 +1,73 @@
+/* banner css start */
+.banner-are {
+    width: 100%;
+    background-color: var(--primer);
+    padding: 50px 0;
+
+    .banner-main {
+        max-width: 1300px;
+        display: flex;
+        align-items: center;
+    }
+
+    .banner-content {
+        max-width: 584px;
+        background-color: var(--primer);
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 40px;
+        }
+
+        p {
+            font-size: 18px;
+            color: var(--light-black);
+            margin-bottom: 40px;
+        }
+
+        .banner-btn {
+            color: var(--black);
+            padding: 18px 50px;
+            border: solid 2px var(--black);
+            border-radius: 10px;
+        }
+    }
+
+    .banner-imae {
+        width: 673px;
+        position: relative;
+        text-align: center;
+        z-index: 1;
+
+        img {
+            width: 460px;
+        }
+
+        .banner-bg {
+            width: 100%;
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: -1;
+        }
+    }
+
+    .pagenation {
+        text-align: center;
+    }
+
+    .button-slider {
+        width: 12px;
+        height: 12px;
+        background: var(--white);
+        border-radius: 50%;
+    }
+
+    .d-slider {
+        width: 28px;
+        height: 12px;
+        border-radius: 30px;
+        background: var(--black);
+    }
+}
+/* banner css end */
