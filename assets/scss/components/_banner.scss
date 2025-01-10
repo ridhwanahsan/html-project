@@ -1,26 +1,32 @@
 /* banner css start */
-.banner-are{
+.banner-are {
     width: 100%;
     background-color: $primer;
     padding: 50px 0;
-    .banner-main{
+
+    .banner-main {
         max-width: 1300px;
         display: flex;
         align-items: center;
-        .banner-content{
-    max-width: 584px;
-    background-color: $primer;
 
-            h1{
-                 font-size: 48px;
- margin-bottom: 40px;
+        .banner-content {
+            max-width: 584px;
+            background-color: $primer;
+
+           h1 {
+            font-size: 48px;
+            margin-bottom: 40px;
+            @include lline-limit(1);
+           
             }
-            p{
+
+            p {
                 font-size: 18px;
                 color: $light-black;
                 margin-bottom: 40px;
             }
-            .banner-btn{
+
+            .banner-btn {
                 color: $black;
                 padding: 18px 50px;
                 border: solid 2px $black;
@@ -28,48 +34,56 @@
             }
         }
     }
-    .banner-imae{
-    width: 673px;
-    position: relative;
-    text-align: center;
-    z-index: 1;
-    img{
-        width: 460px;
+
+    .banner-imae {
+        width: 673px;
+        position: relative;
+        text-align: center;
+        z-index: 1;
+
+        img {
+            width: 460px;
+        }
+
+        .banner-bg {
+            width: 100%;
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: -1;
+        }
     }
-    .banner-bg{
+
+    .swiper-pagination {
+        text-align: center;
+
+        .swiper-pagination-bullet {
+            width: 12px;
+            height: 12px;
+            background: $white;
+            border-radius: 50%;
+            opacity: 1;
+        }
+        .swiper-pagination-bullet-active {
+            
+            width: 28px;
+            height: 12px;
+            border-radius: 30px;
+            background: $black;
+            
+        }
+    }
+}
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: var(--swiper-pagination-bottom,8px);
+    top: var(--swiper-pagination-top,auto);
+    left: 0;
     width: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: -1;
-  
+    margin-bottom: 44px;
 }
-}
-    .pagenation{ 
-text-align: center; 
-  .button-slider{
-    width: 12px;
-    height: 12px;
-    background: $white;
-    border-radius: 50%;
-    .d-slider{ 
-    width: 28px;
-    height: 12px;
-    border-radius: 30px;
- background: $black;
-}
-
-  
-}
-
-}
-}
- 
- 
-
-
-
-
-
-
 /* banner css end */
+
+.swiper {
+  width: 100%;
+  
+}

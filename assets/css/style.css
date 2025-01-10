@@ -100,6 +100,11 @@ h1, h2, h3, h4, h5, h6 {
 .banner-are .banner-main .banner-content h1 {
   font-size: 48px;
   margin-bottom: 40px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  white-space: normal;
 }
 .banner-are .banner-main .banner-content p {
   font-size: 18px;
@@ -128,20 +133,32 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   z-index: -1;
 }
-.banner-are .pagenation {
+.banner-are .swiper-pagination {
   text-align: center;
 }
-.banner-are .pagenation .button-slider {
+.banner-are .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background: #ffffff;
   border-radius: 50%;
+  opacity: 1;
 }
-.banner-are .pagenation .button-slider .d-slider {
+.banner-are .swiper-pagination .swiper-pagination-bullet-active {
   width: 28px;
   height: 12px;
   border-radius: 30px;
   background: #050505;
 }
 
+.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  bottom: var(--swiper-pagination-bottom, 8px);
+  top: var(--swiper-pagination-top, auto);
+  left: 0;
+  width: 100%;
+  margin-bottom: 44px;
+}
+
 /* banner css end */
+.swiper {
+  width: 100%;
+}

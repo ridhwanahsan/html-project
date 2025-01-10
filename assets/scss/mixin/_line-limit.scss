@@ -1,0 +1,7 @@
+@mixin lline-limit($lines) {
+   overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: $lines;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}
