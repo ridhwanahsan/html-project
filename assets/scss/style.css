@@ -2,8 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* CSS Variables */
@@ -17,7 +16,6 @@ body {
 a {
   text-decoration: none;
   color: var(--white);
-  -webkit-transition: var(--transition);
   transition: var(--transition);
   display: inline-block;
 }
@@ -47,15 +45,9 @@ h1, h2, h3, h4, h5, h6 {
 .header-area .header-main {
   max-width: 1240px;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   padding: 30px 0;
 }
 .header-area .header-main .header-menu li {
@@ -84,43 +76,47 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #25EFD2;
   padding: 50px 0;
 }
-.banner-are .banner-main {
+
+.banner-main {
   max-width: 1300px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-.banner-are .banner-main .banner-content {
+
+.banner-are .banner-content {
   max-width: 584px;
   background-color: #25EFD2;
 }
-.banner-are .banner-main .banner-content h1 {
+
+.banner-are .banner-content h1 {
   font-size: 48px;
   margin-bottom: 40px;
 }
-.banner-are .banner-main .banner-content p {
+
+.banner-are .banner-content p {
   font-size: 18px;
   color: #333333;
   margin-bottom: 40px;
 }
-.banner-are .banner-main .banner-content .banner-btn {
+
+.banner-are .banner-content .banner-btn {
   color: #050505;
   padding: 18px 50px;
   border: solid 2px #050505;
   border-radius: 10px;
 }
+
 .banner-are .banner-imae {
   width: 673px;
   position: relative;
   text-align: center;
   z-index: 1;
 }
+
 .banner-are .banner-imae img {
   width: 460px;
 }
+
 .banner-are .banner-imae .banner-bg {
   width: 100%;
   position: absolute;
@@ -128,16 +124,19 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   z-index: -1;
 }
+
 .banner-are .pagenation {
   text-align: center;
 }
-.banner-are .pagenation .button-slider {
+
+.banner-are .button-slider {
   width: 12px;
   height: 12px;
   background: #ffffff;
   border-radius: 50%;
 }
-.banner-are .pagenation .button-slider .d-slider {
+
+.banner-are .d-slider {
   width: 28px;
   height: 12px;
   border-radius: 30px;
@@ -145,3 +144,54 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* banner css end */
+/* product section start */
+.product-box .product-area {
+  max-width: 1130px;
+  margin: 50px 0;
+}
+
+.product-box .product-area .product-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  align-items: center;
+  gap: 50px;
+}
+
+.product-box .product-area .product-item .product-image {
+  max-width: 588px;
+}
+
+.product-box .product-area .product-item .product-image img {
+  width: 100%;
+}
+
+.product-box .product-area .product-item .product-content {
+  max-width: 526px;
+}
+
+.product-box .product-item .product-content h2 {
+  font-size: 37px;
+  margin-bottom: 40px;
+}
+
+.product-box .product-item .product-content p {
+  margin-bottom: 40px;
+}
+
+.product-box .product-item .product-content a {
+  padding: 18px 50px;
+  background: #25EFD2;
+  border-radius: 10px;
+  color: #050505;
+}
+
+.product-box .product-item .product-content a:hover {
+  background: #050505;
+  color: #ffffff;
+}
+
+.product-box .product-item:nth-child(even) {
+  flex-direction: row-reverse;
+}/*# sourceMappingURL=style.css.map */
