@@ -269,6 +269,34 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 
+.news-banner.swiper {
+  width: 90%;
+  border-radius: 20px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.news-banner.swiper .swiper-pagination {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.news-banner.swiper .swiper-pagination .swiper-pagination-bulle {
+  background: #ffffff;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  border-radius: 50%;
+  opacity: 1;
+}
+.news-banner.swiper .swiper-pagination .swiper-pagination-bullet-active {
+  background: #050505;
+  width: 24px;
+  border-radius: 24px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease-out 0.3s;
+  transition: all 0.3s ease-out 0.3s;
+}
+
 /* baner news style end */
 /* contact style start */
 .contact-area .contact-main {
